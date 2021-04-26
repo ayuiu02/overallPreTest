@@ -1,5 +1,5 @@
 **Name : Ayu Isnaini <br/>
-Position Applied : Software Engineer in Test<br/>**
+Position Applied : Test Engineer<br/>**
 
 **Basic Programming**<br/>
 1.	What is the data-type usually used in arithmetic operation? <br/>
