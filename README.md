@@ -41,7 +41,7 @@ Based on what I read, to test website which has ajax/javascript on it, one of th
 
 3. A website page can only be accessed with CAPTCHA. How do you test that page?<br/>
 Answer:<br/>
-Based on what I read, to handle captcha testing we could set static captcha in our testing environment.<br/>
+Based on what I read, to handle captcha testing we could set static captcha in our testing environment for teh need of testing so we could set the static captcha in our testing code.<br/>
 
 **Essay Question Topic**<br/>
 *First of all, I would say sorry since I do the API testing using Postman*
