@@ -72,3 +72,11 @@ pm.test('Schema is valid', () => {<br/>
     pm.response.to.have.jsonSchema(schema);<br/>
 });
 
+2. To create input in this endpoint https://jsonplaceholder.typicode.com/posts, I use the 'Body' > 'form-data' section in Postman and input the data based on these following:<br/>
+- key : title, value : recommendation
+- key : body, value : motorcycle
+- key : userId, value : 12
+
+3. For web automation test, I choosed to create scenario for 'Login' functionality using integration between Eclipse (Java Language), Cucumber, Selenium WebDriver, and I created the report too in html format. I've stored my code in this following repository: https://github.com/ayuiu02/webAutomationPreTest
+
+5. For mobile automation test, I choosed to create scenario for 'Login' functionality too using integration between Eclipse (Java language), Cucumber, Appium. I've stored my code in this following repository: https://github.com/ayuiu02/mobileAutomationPreTest
