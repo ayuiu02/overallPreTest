@@ -1,5 +1,4 @@
-Name: Ayu Isnaini
-Position Applied: Software Engineer in Test
+Ayu Isnaini_Software Engineer in Test Pretest
 
 Basic Programming
 1.	What is the data-type usually used in arithmetic operation? 
