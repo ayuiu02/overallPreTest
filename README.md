@@ -90,6 +90,6 @@ pm.test('Schema is valid', () => {<br/>
 - key : body, value : motorcycle
 - key : userId, value : 12
 
-3. For web automation test, I choosed to create scenario for 'Login' functionality using integration between Eclipse (Java Language), Cucumber, Selenium WebDriver, and I created the report too in html format. I've stored my code in this following repository: https://github.com/ayuiu02/webAutomationPreTest
+3. For web automation test, I chose to create scenario for 'Login' functionality using integration between Eclipse (Java Language), Cucumber, Selenium WebDriver, and I created the report too in html format. I've stored my code in this following repository: https://github.com/ayuiu02/webAutomationPreTest
 
-5. For mobile automation test, I choosed to create scenario for 'Login' functionality too using integration between Eclipse (Java language), Cucumber, Appium. I've stored my code in this following repository: https://github.com/ayuiu02/mobileAutomationPreTest
+5. For mobile automation test, I chose to create scenario for 'Login' functionality too using integration between Eclipse (Java language), Cucumber, Appium. I've stored my code in this following repository: https://github.com/ayuiu02/mobileAutomationPreTest
