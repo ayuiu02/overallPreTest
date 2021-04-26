@@ -44,7 +44,7 @@ Answer:<br/>
 Based on what I read, to handle captcha testing we could set static captcha in our testing environment.<br/>
 
 **Essay Question Topic**<br/>
-*First of all, I would say sorry since I do the API testingusinng Postman*
+*First of all, I would say sorry since I do the API testing using Postman*
 1. Create automation test script to test these end-point:<br/>
 a. GET -> https://jsonplaceholder.typicode.com/posts -> To make sure this
 end-point have a correct data-type below:
