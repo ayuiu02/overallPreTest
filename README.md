@@ -31,4 +31,44 @@ So a / 6 = 12 / 6 = 2<br/>
 Reason: because the system replacing “ “ with “” while showing the address using replace() method.<br/>
 
 **Flaky Test**<br/>
+**Essay Question Topic**<br/>
+1. Create automation test script to test these end-point:<br/>
+a. GET -> https://jsonplaceholder.typicode.com/posts -> To make sure this
+end-point have a correct data-type below:
+- userId -> Integer<br/>
+- id -> Integer<br/>
+- title -> String<br/>
+- body -> String<br/>
+Answer:<br/>
+>const schema = {<br/>
+  "type": "array",<br/>
+  "items": [<br/>
+    {<br/>
+      "type": "object",<br/>
+      "properties": {<br/>
+        "userId": {<br/>
+          "type": "integer"<br/>
+        },<br/>
+        "id": {<br/>
+          "type": "integer"<br/>
+        },<br/>
+        "title": {<br/>
+          "type": "string"<br/>
+        },<br/>
+        "body": {<br/>
+          "type": "string"<br/>
+        }<br/>
+      },<br/>
+      "required": [<br/>
+        "userId",<br/>
+        "id",<br/>
+        "title",<br/>
+        "body"<br/>
+      ]<br/>
+    }<br/>
+  ]<br/>
+};<br/>
+pm.test('Schema is valid', () => {<br/>
+    pm.response.to.have.jsonSchema(schema);<br/>
+});
 
