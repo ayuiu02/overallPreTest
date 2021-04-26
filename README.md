@@ -31,19 +31,20 @@ So a / 6 = 12 / 6 = 2<br/>
 Reason: because the system replacing “ “ with “” while showing the address using replace() method.<br/>
 
 **Flaky Test**<br/>
-1. What is a flaky test?
+1. What is a flaky test?<br/>
 Answer:<br/>
 Flaky test is testing which produced inconsistent result. Sometimes the testing got failed while in the other time it got passed.<br/>
 
-2. An element in a website is using ajax/javascript to show the data (processed as asynchronous). What do you do to test that element?
+2. An element in a website is using ajax/javascript to show the data (processed as asynchronous). What do you do to test that element?<br/>
 Answer:<br/>
 Based on what I read, to test website which has ajax/javascript on it, one of the way is we could use implicitlyWait() in Selenium. So if we have a form using AJAX to shows the data, then we could set timeout in our script for several second so then we could ensure certain component is there or not.<br/>
 
-3. A website page can only be accessed with CAPTCHA. How do you test that page?
+3. A website page can only be accessed with CAPTCHA. How do you test that page?<br/>
 Answer:<br/>
 Based on what I read, to handle captcha testing we could set static captcha in our testing environment.<br/>
 
 **Essay Question Topic**<br/>
+*First of all, I would say sorry since I do the API testingusinng Postman*
 1. Create automation test script to test these end-point:<br/>
 a. GET -> https://jsonplaceholder.typicode.com/posts -> To make sure this
 end-point have a correct data-type below:
